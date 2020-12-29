@@ -1,4 +1,5 @@
-'''Random destination'''
+'''latlong.py - simple command line tool to generate a random destination from 
+    starting coordinates'''
 import math
 import random
 import sys
