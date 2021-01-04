@@ -51,8 +51,8 @@ def get_random_location(latitude, longitude, radius_km):
     global distance  # update distance as a global - it will be used to calculate route zoom
 
     # get random destination and distance
-    bearing = random.randint(0, 360)
-    distance = round(radius_km * random.random(), 3)
+    bearing = round(random.uniform(0, 360),3 )
+    distance = round(random.uniform(0, radius_km), 3)
 
     # set zoom based on distance
     # print(f"Bearing: {str(bearing)}, Distance (km): {str(distance_km)}")
