@@ -1,5 +1,7 @@
 '''latlong.py - simple command line tool to generate a random destination from 
-    starting coordinates'''
+    starting coordinates
+    Warning: You might have to swim
+    '''
 import math
 import random
 import sys
